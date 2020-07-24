@@ -73,17 +73,17 @@ IGEL custom partitions are delivered as a zip archive. The archive has the follo
 ## IGEL Disclaimer
 
 The provided packages for use with the IGEL OS Custom Partition feature are without any warranty or support by IGEL Technology.
-<br />
+<br /> <br />
 The files are not designed for production usage, use at your own risk. IGEL Technology will not provide any packages for production use and will not create or support any other packages or the implementation for other 3rd party software.
-<br />
+<br /> <br />
 IGEL Technology is not responsible for any license violation created with the custom partition technology or the provided technical demonstation packages.
-<br />
+<br /> <br />
 The custom partition technology can create a permanent damage in the Universal Desktop LX host system, services related to the wrong usage/misinstallation of a custom partition and/or the deployed packages are not covered by the warranty in any kind.
-<br />
+<br /> <br />
 You will not get support as long the custom partition is used on a system, to avoid conflicts you've to reset the device back to factory defaults before opening a support call.
-<br />
+<br /> <br />
 All packages are designed as technical demonstration samples!
-<br />
+<br /> <br />
 Use at your own risk!
-<br />
+<br /> <br />
 Your IGEL Support/PreSales Team April 2012
