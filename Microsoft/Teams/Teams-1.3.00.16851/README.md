@@ -11,3 +11,4 @@
 | Path to Executable | /custom/msteams/usr/bin/teams |
 | Path to Icon | /custom/msteams/usr/share/pixmaps/teams.png |
 | Missing Libraries | libboost_filesystem.so.1.58.0 <br /> libboost_system.so.1.58.0 <br /> libcapnp-0.5.3.so <br /> libgnome-keyring.so.0 <br /> libkj-0.5.3.so <br /> libmirclient.so.9 <br /> libmircommon.so.7 <br /> libmircore.so.1 <br /> libmirprotobuf.so.3 <br /> libprotobuf-lite.so.9 |
+| Packaging notes | There is a bug in sharing full screen. You need to move the following file: <br /> <br /> mv /custom/msteams/usr/share/teams/resources/app.asar.unpacked/node_modules/slimcore/bin/rect-overlay /custom/msteams/usr/share/teams/resources/app.asar.unpacked/node_modules/slimcore/bin/bad-rect-overlay |
