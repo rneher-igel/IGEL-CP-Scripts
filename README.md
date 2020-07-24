@@ -78,7 +78,7 @@ The files are not designed for production usage, use at your own risk. IGEL Tech
 <br /> <br />
 IGEL Technology is not responsible for any license violation created with the custom partition technology or the provided technical demonstation packages.
 <br /> <br />
-The custom partition technology can create a permanent damage in the Universal Desktop LX host system, services related to the wrong usage/misinstallation of a custom partition and/or the deployed packages are not covered by the warranty in any kind.
+The custom partition technology can create a permanent damage in the IGEL OS host system, services related to the wrong usage/misinstallation of a custom partition and/or the deployed packages are not covered by the warranty in any kind.
 <br /> <br />
 You will not get support as long the custom partition is used on a system, to avoid conflicts you've to reset the device back to factory defaults before opening a support call.
 <br /> <br />
