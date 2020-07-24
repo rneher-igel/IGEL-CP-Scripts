@@ -1,5 +1,6 @@
 # Building IGEL OS Custom Partition
 
+***
 ## Summary of steps to create custom partitions
 
 | Step | Description |
@@ -19,6 +20,7 @@ See the following:<br />
 <br />
 [How to Install Microsoft Teams in a Custom Partition on IGEL OS - White Paper](https://www.igelcommunity.com/post/how-to-install-microsoft-teams-in-a-custom-partition-on-igel-os-white-paper)
 
+***
 ## Finding and adding missing shared libraries
 
 Find the missing libraries on the IGEL OS.
@@ -37,7 +39,7 @@ dpkg -x <filename>.deb <folder>
 
 To seach for missing libraries to download:  https://packages.ubuntu.com/bionic/allpackages
 
-
+***
 ## Vendors
 
 |  Vendor Name |
@@ -45,10 +47,11 @@ To seach for missing libraries to download:  https://packages.ubuntu.com/bionic/
 | [Microsoft](./Microsoft)|
 | [Zoom](./Zoom)|
 
+***
 ## How-to use a Custom Partition
 
+***
 ### General
-------------------------------------
 IGEL custom partitions are delivered as a zip archive. The archive has the following content:
 
 | Folder | Description |
@@ -58,8 +61,8 @@ IGEL custom partitions are delivered as a zip archive. The archive has the follo
 |disclaimer.txt | disclaimer note|
 |readme.txt | Short Installation guide|
 
+***
 ### Steps to deploy the Custom Partition
-------------------------------------
 
 | Step | Description |
 |------|-------------|
@@ -70,6 +73,7 @@ IGEL custom partitions are delivered as a zip archive. The archive has the follo
 |5. |Assign the profile and files to IGEL device(s).|
 |6. |In some cases it is required to restart the TC after deployment of the CP.|
 
+***
 ## IGEL Disclaimer
 
 The provided packages for use with the IGEL OS Custom Partition feature are without any warranty or support by IGEL Technology.
@@ -87,3 +91,19 @@ All packages are designed as technical demonstration samples!
 Use at your own risk!
 <br /> <br />
 Your IGEL Support/PreSales Team April 2012
+
+***
+***
+### Revision Summary
+
+| Element Version | Date | Change Owner | Description |
+| ---- | ---- | ---- | ---- |
+| 0.1 | 23-July-2020 | Ron Neher | Initial version |
+
+***
+***
+### Outstanding Issues
+
+| Ref  | Description |
+| ---- | ----------- |
+| OI.1 | Automate the creation of IGEL CP zip file via GitHub Actions. Configuring and managing workflow files and runs. <br /> <br /> [Configing a Workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) <br /> [About GitHub Actions](https://docs.github.com/en/actions/getting-started-with-github-actions/about-github-actions) <br /> [Workflow Syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) <br /> [Software Installed on GitHub Hosted Runners](https://docs.github.com/en/actions/reference/software-installed-on-github-hosted-runners)|
