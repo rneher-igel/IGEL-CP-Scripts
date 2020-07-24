@@ -5,8 +5,8 @@
 | Step | Description |
 |------|-------------|
 | 1. |Setup lab environment|
-| 2. |Download Linux package|
-| 3. |Unpack the package on a Linux Ubuntu (18.04) system (dpkg -x \<deb_file> \<directory>)|
+| 2. |Download Linux package (\<package.deb>)|
+| 3. |Unpack the package on a Linux Ubuntu (18.04) system (dpkg -x \<package.deb> \<directory>)|
 | 4. |Create the initialization script|
 | 5. |Compress the custom partition contents (tar cvjf \<package.tar.bz2> \<directory> \<init_script.sh>)|
 | 6. |Write the \*.inf Metadata file|
