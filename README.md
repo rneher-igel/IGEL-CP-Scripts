@@ -107,3 +107,14 @@ Your IGEL Support/PreSales Team April 2012
 | Ref  | Description |
 | ---- | ----------- |
 | OI.1 | Automate the creation of IGEL CP zip file via GitHub Actions. Configuring and managing workflow files and runs. <br /> <br /> [Configing a Workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) <br /> [About GitHub Actions](https://docs.github.com/en/actions/getting-started-with-github-actions/about-github-actions) <br /> [Workflow Syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) <br /> [Software Installed on GitHub Hosted Runners](https://docs.github.com/en/actions/reference/software-installed-on-github-hosted-runners)|
+
+Zip file layout:
+```{Zip file layout}
+disclaimer.txt
+profiles/
+   profiles.zip (profile.xml, OS_VER.xml)
+readme.txt   
+target/
+   <package>.tar.bz2
+   <package>.inf
+  ```
