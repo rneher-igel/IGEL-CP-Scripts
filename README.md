@@ -14,8 +14,9 @@
 | 8. |Create a UMS profile for the custom partition|
 | 9. |Assign the profile, check for missing libraries, and test the application|
 
-See the following:
+See the following:<br />
 [IGEL KB Document: Custom Partition Tutorial](https://kb.igel.com/igelos-11.03.500/en/custom-partition-tutorial-27245326.html)
+<br />
 [How to Install Microsoft Teams in a Custom Partition on IGEL OS - White Paper](https://www.igelcommunity.com/post/how-to-install-microsoft-teams-in-a-custom-partition-on-igel-os-white-paper)
 
 ## Finding and adding missing shared libraries
