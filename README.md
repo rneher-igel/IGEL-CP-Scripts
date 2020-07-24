@@ -6,9 +6,9 @@
 |------|-------------|
 | 1. |Setup lab environment|
 | 2. |Download Linux package|
-| 3. |Unpack the package on a Linux system|
+| 3. |Unpack the package on a Linux Ubuntu (18.04) system (dpkg -x \<deb_file> \<directory>)|
 | 4. |Create the initialization script|
-| 5. |Compress the custom partition contents|
+| 5. |Compress the custom partition contents (tar cvjf \<package.tar.bz2> \<directory> \<init_script.sh>)|
 | 6. |Write the \*.inf Metadata file|
 | 7. |Upload the files to the UMS|
 | 8. |Create a UMS profile for the custom partition|
@@ -25,14 +25,14 @@ Find the missing libraries on the IGEL OS.
 
 On IGEL OS:
 ```{find missing shared libraries}
-cd /custom/zoom
+cd /custom/<folder>
 find . -executable -type f -exec ldd ‘{}’ \; | grep ‘not found’ >> /custom/ldd.txt
   ```
 
 On Linux Ubuntu:
 ```{download missing libraries and add to CP}
 apt download <filename>
-dpkg -x <filename>.deb zoom
+dpkg -x <filename>.deb <folder>
   ```
 
 To seach for missing libraries to download:  https://packages.ubuntu.com/bionic/allpackages
