@@ -40,14 +40,6 @@ dpkg -x <filename>.deb <folder>
 To seach for missing libraries to download:  https://packages.ubuntu.com/bionic/allpackages
 
 ***
-## Vendors
-
-|  Vendor Name |
-|--------------|
-| [Microsoft](./Microsoft)|
-| [Zoom](./Zoom)|
-
-***
 ## How-to use a Custom Partition
 
 ***
