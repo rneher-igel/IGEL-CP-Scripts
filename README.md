@@ -74,6 +74,25 @@ IGEL custom partitions are delivered as a zip archive. The archive has the follo
 |6. |In some cases it is required to restart the TC after deployment of the CP.|
 
 ***
+## Build Ubuntu 18.04 Virtual Machine and Snapshots to roll back to baseline
+
+| Step | Description |
+|------|-------------|
+| 1. |Install and configure Ubuntu 18.04 desktop|
+| 2. |Take snapshot of the base VM|
+| 3. |Setup and package application|
+| 4. |Roll back to base VM snapshot|
+
+Configure Ubuntu 18.04 OS:
+```{Configure Ubuntu 18.04}
+sudo apt-get update -y
+sudo apt-get upgrade -y
+sudo apt-get install build-essential gcc make perl dkms -y
+sudo apt install chrony -y
+sudo apt install apt-rdepends
+  ```
+
+***
 ## IGEL Disclaimer
 
 The provided packages for use with the IGEL OS Custom Partition feature are without any warranty or support by IGEL Technology.
