@@ -22,7 +22,7 @@ for category in $CATEGORIES; do
 
       if [ -d $cp ]; then
         zip_needed=false
-        zip_file="$ZIPLOCATION/$category/$cp.tar.bz";
+        zip_file="$ZIPLOCATION/$category/$cp.zip";
 
         if [ ! -f  $zip_file ]; then
           zip_needed=true;
@@ -40,7 +40,7 @@ for category in $CATEGORIES; do
         fi
 
 
-        #  create the structure needed, then tar the file to the correct location
+        #  create the structure needed, then zip the file to the correct location
         if $zip_needed; then
           echo "Zip needed for cp: $cp"
           cd $cp
@@ -61,7 +61,7 @@ for category in $CATEGORIES; do
           cp $COMMONREADME "$cpt"
           cp $COMMONDISCLAIMER "$cpt"
           cd $cpt
-          tar -cvjf $zip_file .
+          zip -r $zip_file .
           cd ..
           rm -rf $cpt
           cd ..
