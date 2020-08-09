@@ -57,8 +57,8 @@ for category in $CATEGORIES; do
           cp $COMMONDISCLAIMER "$cpt"
           cd $cpt
           tar -cvjf $zip_file .
-          cd ..
           rm -rf $cpt
+          cd ../..
         fi
 
       fi
