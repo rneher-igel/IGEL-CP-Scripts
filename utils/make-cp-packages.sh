@@ -43,6 +43,10 @@ for category in $CATEGORIES; do
         #  create the structure needed, then tar the file to the correct location
         if $zip_needed; then
           echo "Zip needed for cp: $cp"
+          foldername=`grep -i "cp=" *.sh`
+          foldername=${foldername/*\//}
+          foldername=${foldername/\"/}
+          echo $foldername
           cd $cp
           cpt="tmp"
           rm -rf $cpt
@@ -57,8 +61,9 @@ for category in $CATEGORIES; do
           cp $COMMONDISCLAIMER "$cpt"
           cd $cpt
           tar -cvjf $zip_file .
+          cd ..
           rm -rf $cpt
-          cd ../..
+          cd ..
         fi
 
       fi
