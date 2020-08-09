@@ -1,7 +1,7 @@
 # Microsoft Teams
 
 |  CP Information |            |
-|----------------|------------|
+|----------------|--------------|
 | Package | Microsoft Teams 1.3.00.16851|
 | Script Name | [msteams-cp-init-script.sh](msteams-cp-init-script.sh) |
 | CP Mount Path | /custom/msteams |
