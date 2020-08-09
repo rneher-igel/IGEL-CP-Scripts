@@ -7,7 +7,7 @@
             <model>IGEL OS 11</model>
             <version>11.03.110.01</version>
         </firmware>
-        <description>Microsoft Teams 1.3.00.5153</description>
+        <description>Microsoft Teams 1.3.00.16851</description>
         <overwritesessions>false</overwritesessions>
         <is_master_profile>false</is_master_profile>
         <is_igel_os>true</is_igel_os>
