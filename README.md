@@ -109,6 +109,7 @@ Your IGEL Support/PreSales Team April 2012
 
 | Element Version | Date | Change Owner | Description |
 | ---- | ---- | ---- | ---- |
+| 0.2 | 09-August-2020 | Ron Neher | Completed the GitHub automation to take CP files and create package.zip files |
 | 0.1 | 23-July-2020 | Ron Neher | Initial version |
 
 ***
@@ -117,7 +118,7 @@ Your IGEL Support/PreSales Team April 2012
 
 | Ref  | Description |
 | ---- | ----------- |
-| OI.1 | Automate the creation of IGEL CP zip file via GitHub Actions. Configuring and managing workflow files and runs. <br /> <br /> [Configing a Workflow](https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow) <br /> [About GitHub Actions](https://docs.github.com/en/actions/getting-started-with-github-actions/about-github-actions) <br /> [Workflow Syntax for GitHub Actions](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) <br /> [Software Installed on GitHub Hosted Runners](https://docs.github.com/en/actions/reference/software-installed-on-github-hosted-runners)|
+| OI.1 | NTR |
 
 Zip file layout:
 ```{Zip file layout}
